@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: yoke-notify
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      authentication-database: admin
+      username: root
+      password: '{cipher}72b1b7f981a1d5e22208cea33af334524f5fa6f97b25412406f4e0e232919a18'
+      database: yoke
+
+server:
+  port: 8082
