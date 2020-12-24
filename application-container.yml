@@ -2,3 +2,18 @@ spring:
   data:
     mongodb:
       host: yoke-mongodb
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: yoke-config-server
+      fail-fast: true
+      retry:
+       initial-interval: 10000
+       multiplier: 1.5
+       max-attempts: 20
+       max-interval: 15000
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://yoke-eureka-server:8761/eureka
