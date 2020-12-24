@@ -6,7 +6,6 @@ spring:
     config:
       discovery:
         enabled: true
-        service-id: yoke-config-server
       fail-fast: true
       retry:
        initial-interval: 10000
