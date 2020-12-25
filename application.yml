@@ -7,7 +7,7 @@ spring:
       port: 27017
       authentication-database: admin
       username: root
-      password: '{cipher}72b1b7f981a1d5e22208cea33af334524f5fa6f97b25412406f4e0e232919a18'
+      password: '{cipher}AgBqwU2ntH5lAXl6zoj3Bhs2owVMfBb8XTXItR3l28uJ6Byevx4pF+Ljc81Kll6EjdFfjcrufKDd2cl/rr44N0aSIRHeJBRoy3CAuFxJrqMvXNb0+g8ATu5C9XQjFKe+5sj5IwmXkFzZKmfj8xg4zf8mUm5HR+SgkxD096psODi2g6NyOANGjICNIUwsLTwzWpCnTV5xBaijTKj+vhpGJhz93fcKucKE0kjpKVx75LhODA0DqvNA1TgN+nTq/iHorBLmiImXFKRUAz30We3+l8MPTReJJh0+SM4/izw7eMe/5pUDatQ5QqP5pqXpriMZpM5vVRu7uzfffhA9GwnvFvCHH90rahxlTdQcYXXPjdrKPfMdgg/QG6WNvfFN/7EKWbXV6j+5qJ72IrIP5Or1Fa9a5EVhkV0A0m1mTR8fmr7vW0GSaGOh16jBh3tLsA0O/Ext0sH+8jHrkv34Huqagm07OpDc6n6zmFioXEgRLM+iHl5+gOoi/TuC41OJEe3lGGq5wzyi4cmFhCSlZmZe9pkJ+cs0flZ/yJ46EogqzG5IgXQ9yzJgIprdpMIEQMNphfOo0wnP+TbMFmIn6CWDCsQazuj/ob6fqNbF'
       database: yoke
 
 server:
