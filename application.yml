@@ -1,4 +1,40 @@
 spring:
+  cloud:
+    stream:
+      bindings:
+        createEvent:
+          group: yoke-notify
+          destination: yoke-create-event
+        deleteEvent:
+          group: yoke-notify
+          destination: yoke-delete-event
+        addEventAttender:
+          group: yoke-notify
+          destination: yoke-add-event-attender
+        deleteEventAttender:
+          group: yoke-notify
+          destination: yoke-delete-event-attender
+
+      kafka:
+        binder:
+          brokers: localhost:9092
+        bindings:
+          createEvent:
+            consumer:
+              maxAttempts: 3
+              enableDlq: true
+          deleteEvent:
+            consumer:
+              maxAttempts: 3
+              enableDlq: true
+          addEventAttender:
+            consumer:
+              maxAttempts: 3
+              enableDlq: true
+          deleteEventAttender:
+            consumer:
+              maxAttempts: 3
+              enableDlq: true
   application:
     name: yoke-notify
   data:

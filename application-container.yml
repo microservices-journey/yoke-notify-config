@@ -3,6 +3,10 @@ spring:
     mongodb:
       host: yoke-mongodb
   cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: yoke-kafka:9092
     config:
       discovery:
         enabled: true
