@@ -6,7 +6,7 @@ spring:
     stream:
       kafka:
         binder:
-          brokers: yoke-kafka:9092
+          brokers: yoke-kafka:29092
     config:
       discovery:
         enabled: true
