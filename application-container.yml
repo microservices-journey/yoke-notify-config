@@ -16,7 +16,17 @@ spring:
        multiplier: 1.5
        max-attempts: 20
        max-interval: 15000
+    zipkin:
+      baseUrl: http://yoke-zipkin:9411
+      sender:
+        type: kafka
 eureka:
   client:
     serviceUrl:
       defaultZone: http://yoke-eureka-server:8761/eureka
+
+
+logback:
+  destination:
+    url: logstash
+    port: 5000

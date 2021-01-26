@@ -45,6 +45,12 @@ spring:
       username: root
       password: '{cipher}AQBoZkRNIR6nIQ3HwnO0lLxjHRo7q5ky0baPn46n4TTyQR8VvFuSIiN4oKdBf/fsGGUNAfSnvLjEHuI9vBQbK2Ik6OPKUos0ty3BbUuDQtGHMj1gIy1HX9ZWYV7nYpmpt9HcBmn4lApRRlcxSPd2YumrtrgpGyi6P3PLdWFwvdTMz56SPk4C3R/UwakO6Fcz2mgCfWhAUY2m3iN9YrI9SKZCSjNd5EJSdgp3xQDtscL4xEWToG0nbl5kx60RXH5L3b4HLEnF+FoXC/Okh8Oby+sUqRLDs64SmpxZ28Jp47no+QuY+YKwTmmXENI4x/epNTzjW9WKS1RwOISCUQ4TlGHf8LHbKjvfp6bX/utO0O8+c3TBT7oahmSo1+56jIEVO9w='
       database: yoke
+  zipkin:
+    baseUrl: http://localhost:9411
+
+logback:
+  destination:
+    url: localhost
 
 server:
   port: 8082
